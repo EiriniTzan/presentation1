@@ -1,6 +1,6 @@
 # From Concept Drift to Model Degradation
 ## An Overview on Performance-Aware Drift Detectors
-Based on the review by Bayram et al., 2022
+Based on the review by Bayram et al., 2022  
 Eirini Tzanaki, 2025
 
 ---
@@ -53,7 +53,7 @@ Eirini Tzanaki, 2025
 
 ---
 
-### Thank you!
+# Thank you!
 
 
 
