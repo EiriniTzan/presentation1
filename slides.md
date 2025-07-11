@@ -8,17 +8,16 @@ Eirini Tzanaki, 2025
 # What is this paper about?
 
 - Review paper
-- Focus: performance-based concept drift detection
+- Focus: model performance degradation as drift signal
 - Surveys methods from 2011-2021
-- Classifies existing methods and highlights gaps for future research
+- Highlights gaps for future research
 
 ---
 
 # Key Concepts
 
 - **Concept Drift** = change in $P_t(X, y)$
-- Types: real, virtual, recurring, sudden, gradual
-- Focus: model performance degradation
+- Types: real, virtual, recurring, sudden, gradual, incremental
 - Variables: $X$ = input, $y$ = output
 
 ---
@@ -26,15 +25,15 @@ Eirini Tzanaki, 2025
 # Main Detection Strategies
 
 ### Statistical Process Control (SPC)
-- DDM, EDDM, FHDDM
+- Example: DDM
 - Monitor error with thresholds
 
 ### Windowing Techniques
-- ADWIN, STEPD, MDDM
+- Example: ADWIN
 - Compare recent vs past performance
 
 ### Ensemble Methods
-- DWM, AWE, Learn++.NSE
+- Example: DWM
 - Detect disagreement between ensemble members (learners)
 
 ---
@@ -46,10 +45,18 @@ Eirini Tzanaki, 2025
 
 ---
 
-# Why this paper matters?
+# Why this paper matters
 - Clarifies terminology in the field
-- Categorizes a wide range of methods
-- Helps design robust ML systems in real-world (non-stationary) settings
+- Categorizes 40+ methods
+- Helps design robust ML systems in real-world settings
+
+---
+
+# Summary of Findings
+- Tests methods on simulated/real-world datasets
+- Most evaluated on sudden/gradual drift
+- Results vary by drift type & classifier
+- Emphasizes need for consistent evaluation
 
 ---
 
