@@ -22,6 +22,15 @@ Eirini Tzanaki, 2025
 
 ---
 
+# Performance-based Drift Detection
+
+<figure>
+  <img src="figures/demo.png" alt="Drift mechanism" style="width:70%">
+  <figcaption>Figure: Performance-based concept drift mechanism</figcaption>
+</figure>
+
+---
+
 # Main Detection Strategies
 
 ### Statistical Process Control (SPC)
