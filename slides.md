@@ -34,15 +34,12 @@ Eirini Tzanaki, 2025
 # Main Detection Strategies
 
 ### Statistical Process Control (SPC)
-- Example: DDM
 - Monitor error with thresholds
 
 ### Windowing Techniques
-- Example: ADWIN
 - Compare recent vs past performance
 
 ### Ensemble Methods
-- Example: DWM
 - Detect disagreement between ensemble members (learners)
 
 ---
