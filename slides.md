@@ -17,7 +17,7 @@ Eirini Tzanaki, 2025
 # Key Concepts
 
 - **Concept Drift** = change in $P_t(X, y)$
-- Types: real, virtual, recurring, sudden, gradual, incremental
+- Types: real, virtual, prior, recurring, sudden, gradual, incremental
 - Variables: $X$ = input, $y$ = output
 
 ---
