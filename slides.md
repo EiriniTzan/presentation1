@@ -36,7 +36,12 @@ Eirini Tzanaki, 2025
 
 # Taxonomy of Drift Detection Methods
 
-<img src="figures/taxonomy.png" alt="Drift detection taxonomy" style="width:100%; max-height:500px; object-fit: contain;">
+<section>
+  <h2>Taxonomy of Drift Detection Methods</h2>
+  <div style="overflow: auto; max-height: 600px;">
+    <img src="figures/taxonomy.png" alt="Drift taxonomy chart" style="width: 1200px;">
+  </div>
+</section>
 
 ---
 
