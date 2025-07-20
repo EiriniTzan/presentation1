@@ -14,14 +14,6 @@ Eirini Tzanaki, 2025
 
 ---
 
-# Key Concepts
-
-- **Concept Drift** = change in $P_t(X, y)$
-- Types: real, virtual, prior, recurring, sudden, gradual, incremental
-- Variables: $X$ = input, $y$ = output
-
----
-
 # Performance-based Drift Detection
 
 <figure>
@@ -31,23 +23,37 @@ Eirini Tzanaki, 2025
 
 ---
 
-# Main Detection Strategies
+# Probabilistic Types of Drift
 
-### Statistical Process Control (SPC)
-- Monitor error with thresholds
-
-### Windowing Techniques
-- Compare recent vs past performance
-
-### Ensemble Methods
-- Detect disagreement between ensemble members (learners)
+<div style="overflow-x: auto; white-space: nowrap;">
+  <img src="figures/drifttypes1.png" alt="Wide table of drift types" style="height:400px;">
+</div>
 
 ---
 
-# Tools & Metrics
-- **Tools**: Hoeffding bound, Fisher/Wilcoxon test, CUSUM
-- **Metrics**: Accuracy, AUC, Entropy, Confusion Matrix
-- **Learners**: Hoeffding Tree, Naive Bayes, ELM
+# Types of Drift over Time
+
+<img src="figures/drifttypes2.png" style="width:80%">
+
+---
+
+# Taxonomy of Drift Detection Methods
+
+<img src="figures/taxonomy.png" alt="Drift detection taxonomy" style="width:100%; max-height:500px; object-fit: contain;">
+
+---
+
+# Why does drift matter?
+
+<img src="figures/realdrift.png" alt="Drift types diagram" style="width:80%">
+
+---
+
+# Summary of Findings
+- Surveys methods on simulated/real-world datasets
+- Most evaluated on sudden/gradual drift
+- Results vary by drift type & classifier
+- Emphasizes need for consistent evaluation
 
 ---
 
@@ -55,14 +61,6 @@ Eirini Tzanaki, 2025
 - Clarifies terminology in the field
 - Categorizes 40+ methods
 - Helps design robust ML systems in real-world settings
-
----
-
-# Summary of Findings
-- Tests methods on simulated/real-world datasets
-- Most evaluated on sudden/gradual drift
-- Results vary by drift type & classifier
-- Emphasizes need for consistent evaluation
 
 ---
 
