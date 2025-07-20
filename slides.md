@@ -16,10 +16,7 @@ Eirini Tzanaki, 2025
 
 # Performance-based Drift Detection
 
-<figure>
-  <img src="figures/demo.png" alt="Drift mechanism" style="width:70%">
-  <figcaption>Figure: Performance-based concept drift mechanism</figcaption>
-</figure>
+<img src="figures/demo.png" alt="Drift mechanism" style="width:70%">
 
 ---
 
@@ -45,7 +42,7 @@ Eirini Tzanaki, 2025
 
 # Why does drift matter?
 
-<img src="figures/realdrift.png" alt="Drift types diagram" style="width:80%">
+<img src="figures/realdrift.png" alt="Drift types diagram" style="width:70%">
 
 ---
 
