@@ -7,7 +7,6 @@ Eirini Tzanaki, 2025
 
 # What is this paper about?
 
-- Review paper
 - Focus: model performance degradation as drift signal
 - Surveys methods from 2011-2021
 - Highlights gaps for future research
